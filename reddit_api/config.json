@@ -1,0 +1,20 @@
+{
+  "reddit_api": {
+    "client_id": "MMkN7_zE7JEPMQicEWQkWQ",
+    "client_secret": "Pt1rXzwDvm4P49eZGh80009n0Lnv1g",
+    "username": "I_cant_do_i",
+    "password": "Stas123212321",
+    "user_agent": "test"
+  },
+  "logging": {
+    "log_file": "final_Redit_api.log",
+    "log_level": "INFO"
+  },
+  "subreddit_links": [
+    "https://www.reddit.com/r/Tattoo/",
+    "https://www.reddit.com/r/Economist/"
+  ],
+  "pause_duration_seconds": 1800,
+  "post_limit": 1,
+  "message_text_or_image": "Ваш текст сообщения здесь или ссылка на изображение"
+}

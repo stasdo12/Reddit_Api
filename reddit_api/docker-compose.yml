@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: reddit_api
+    container_name: reddit_api
+    volumes:
+      - ./usernames.db:/app/usernames.db
+    environment:
+      PYTHONIOENCODING: utf-8
+    restart: always
