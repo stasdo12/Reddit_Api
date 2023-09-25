@@ -78,6 +78,7 @@ def send_message(username):
         message_sent_counter += 1
         logging.info(f'[{datetime.datetime.now()}] Сообщение отправлено пользователю: {username}')
         logging.info("-----------------------------------------------------------------")
+        time.sleep(30)
     except Exception as e:
         logging.error(f'[{datetime.datetime.now()}] Ошибка при отправке сообщения пользователю {username}: {str(e)}')
         logging.info("-----------------------------------------------------------------")
